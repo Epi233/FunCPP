@@ -11,7 +11,7 @@ namespace QAQ
 		
 
 	private:
-		std::shared_ptr<spdlog::logger> _coreLogger;
-		std::shared_ptr<spdlog::logger> _clientLogger;
+		static std::shared_ptr<spdlog::logger> _coreLogger;
+		static std::shared_ptr<spdlog::logger> _clientLogger;
 	};
 }
